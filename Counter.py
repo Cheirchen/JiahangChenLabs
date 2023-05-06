@@ -21,6 +21,13 @@ class Counter:
         print("Counter: reset")
         self._number  = 0
         self._display.reset()
+        """
+        def reset(self):
+        
+        print("LCDDisplay: reset")
+        self._display.reset()
+        self._number = 0
+        """
 
     def buttonPressed(self,name):
         if name == "increase":
